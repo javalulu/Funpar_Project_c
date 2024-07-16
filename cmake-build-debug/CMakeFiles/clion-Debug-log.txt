@@ -1,0 +1,19 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -DPython_EXECUTABLE=/Users/yuenze/Study_Local/funpar/C_project/venv/bin/python -DPython3_EXECUTABLE=/Users/yuenze/Study_Local/funpar/C_project/venv/bin/python -S /Users/yuenze/Study_Local/funpar/C_project -B /Users/yuenze/Study_Local/funpar/C_project/cmake-build-debug
+-- The C compiler identification is AppleClang 15.0.0.15000309
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Could NOT find OpenMP_C (missing: OpenMP_C_FLAGS OpenMP_C_LIB_NAMES) 
+-- Could NOT find OpenMP (missing: OpenMP_C_FOUND) 
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Python3_EXECUTABLE
+    Python_EXECUTABLE
+
+
+-- Build files have been written to: /Users/yuenze/Study_Local/funpar/C_project/cmake-build-debug
